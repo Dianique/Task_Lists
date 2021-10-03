@@ -21,11 +21,18 @@ android:backgroundTint="#A0CCA2">
             android:layout_marginStart="40dp"
             android:layout_marginTop="11dp"
             android:textSize="20sp"
-            android:textStyle="bold"
-        />
+            android:textStyle="bold" />
 
+            <EditText
+                android:id="@+id/due_date"
+                android:hint="Due Date"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity = "right|center"
+                android:layout_marginRight="25dp"
 
-
-
-
+                />
 </androidx.cardview.widget.CardView>
+
+
